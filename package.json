@@ -5,7 +5,7 @@
     "start": "snowpack dev",
     "build": "npm run svelte-check && snowpack build",
     "svelte-check": "svelte-check",
-    "deploy": "npm run build && touch build/.nojekyll && gh-pages -d build -t true"
+    "deploy": "touch build/.nojekyll && gh-pages -d build -t true"
   },
   "dependencies": {
     "svelte": "^3.31.2"

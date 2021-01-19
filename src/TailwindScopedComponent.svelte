@@ -1,4 +1,4 @@
-<button class="button"> I use Tailwind classes </button>
+<button class="button"> I use scoped Tailwind classes</button>
 
 <style lang="postcss">
   .button {

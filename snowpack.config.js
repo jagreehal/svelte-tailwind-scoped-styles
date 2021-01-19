@@ -1,7 +1,6 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 
 const isProduction = process.env.NODE_ENV === 'production';
-console.log('n', process.env.NODE_ENV);
 module.exports = {
   mount: {
     public: { url: '/', static: true },
