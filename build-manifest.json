@@ -1,0 +1,136 @@
+{
+  "inputs": {
+    "_snowpack/env.js": {
+      "bytes": 97,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte/internal.js": {
+      "bytes": 8183,
+      "imports": []
+    },
+    "dist/TailwindClassComponent.svelte.js": {
+      "bytes": 816,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/TailwindScopedComponent.svelte.css": {
+      "bytes": 380,
+      "imports": []
+    },
+    "dist/TailwindScopedComponent.svelte.js": {
+      "bytes": 814,
+      "imports": [
+        {
+          "path": "dist/TailwindScopedComponent.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/TailwindStyles.svelte.css": {
+      "bytes": 4818,
+      "imports": []
+    },
+    "dist/TailwindStyles.svelte.js": {
+      "bytes": 365,
+      "imports": [
+        {
+          "path": "dist/TailwindStyles.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/App.svelte.js": {
+      "bytes": 3062,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/TailwindClassComponent.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/TailwindScopedComponent.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/TailwindStyles.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/index.js": {
+      "bytes": 394,
+      "imports": [
+        {
+          "path": "_snowpack/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [
+        "default"
+      ],
+      "inputs": {
+        "_snowpack/env.js": {
+          "bytesInOutput": 186
+        },
+        "_snowpack/pkg/svelte/internal.js": {
+          "bytesInOutput": 6364
+        },
+        "dist/TailwindClassComponent.svelte.js": {
+          "bytesInOutput": 693
+        },
+        "dist/TailwindScopedComponent.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "dist/TailwindScopedComponent.svelte.js": {
+          "bytesInOutput": 646
+        },
+        "dist/TailwindStyles.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "dist/App.svelte.js": {
+          "bytesInOutput": 2810
+        },
+        "dist/index.js": {
+          "bytesInOutput": 208
+        }
+      },
+      "bytes": 11401
+    },
+    "../~~bundle~~/dist/index.css": {
+      "imports": [],
+      "inputs": {
+        "dist/TailwindScopedComponent.svelte.css": {
+          "bytesInOutput": 436
+        },
+        "dist/TailwindStyles.svelte.css": {
+          "bytesInOutput": 5758
+        }
+      },
+      "bytes": 6278
+    }
+  }
+}
