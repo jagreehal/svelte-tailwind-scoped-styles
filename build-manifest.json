@@ -22,7 +22,7 @@
       "imports": []
     },
     "dist/TailwindScopedComponent.svelte.js": {
-      "bytes": 814,
+      "bytes": 821,
       "imports": [
         {
           "path": "dist/TailwindScopedComponent.svelte.css",
@@ -106,7 +106,7 @@
           "bytesInOutput": 0
         },
         "dist/TailwindScopedComponent.svelte.js": {
-          "bytesInOutput": 646
+          "bytesInOutput": 653
         },
         "dist/TailwindStyles.svelte.css": {
           "bytesInOutput": 0
@@ -118,7 +118,7 @@
           "bytesInOutput": 208
         }
       },
-      "bytes": 11401
+      "bytes": 11408
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],

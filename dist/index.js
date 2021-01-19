@@ -296,7 +296,7 @@ function create_fragment2(ctx) {
   return {
     c() {
       button = element("button");
-      button.textContent = "I use Tailwind classes";
+      button.textContent = "I use scoped Tailwind classes";
       attr(button, "class", "button svelte-3dek8t");
     },
     m(target, anchor) {
